@@ -1,0 +1,19 @@
+﻿docker-compose up -d 
+
+
+para utilizar el fichero de texto que hemos creado con de los servicios y asi lo podemos ejecutar el Docker y emplear diferentes contenedores
+
+
+docker-compose down si lo queremos eliminar o parar
+
+
+Para hacer la migración
+
+
+
+
+dotnet ef migrations add ‘nombre’
+dotnet ef database update 
+
+
+Al abrir nuestra aplicacion y meter los datos de usuario de la bbdd tendremos nuestras tablas
